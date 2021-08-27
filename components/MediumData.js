@@ -4,7 +4,7 @@ import Image from "next/image";
 function MediumData({img,title}) {
     return (
         <div className="cursor-pointer hover:scale-105 transform transititon duration-300 ease-out">
-            <div className="relative h-80 w-80">
+            <div className="relative h-64 w-64">
             <Image 
             src={img}
             layout='fill'
