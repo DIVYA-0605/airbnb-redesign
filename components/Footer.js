@@ -89,13 +89,13 @@ function Footer() {
     </div>
   </div>
 
-  <div className="flex items-start md:items-center flex-col lg:flex-row mt-4 lg:mt-0">
+  <div className="flex items-start md:items-center  flex-col lg:flex-row mt-4 lg:mt-0">
     <h1 className="text-sm">&copy; 2021 Airbnb, Inc.</h1>
     <ul className="flex items-start md:items-center">
-      <li className="mr-2 text-xs font-light">Privacy</li>
-      <li className=" mr-2 text-xs font-light">Terms</li>
-      <li className=" mr-2 text-xs font-light">Sitemap</li>
-      <li className=" mr-2 text-xs font-light">Company details</li>
+      <li className="mr-2 md:text-sm text-xs font-light">Privacy</li>
+      <li className=" mr-2 md:text-sm  text-xs font-light">Terms</li>
+      <li className=" mr-2 md:text-sm text-xs font-light">Sitemap</li>
+      <li className=" mr-2 md:text-sm text-xs font-light">Company details</li>
     </ul>
   </div>
 </div>
